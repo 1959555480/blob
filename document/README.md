@@ -3,5 +3,5 @@ home: true
 heroImage: ./guimie.jpg
 actionText: Get Started →
 actionLink: /node/
-footer: Writen By yyx
+footer: Writen By aaaa
 ---
