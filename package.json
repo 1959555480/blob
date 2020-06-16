@@ -3,7 +3,7 @@
     "vuepress": "^1.5.2"
   },
   "scripts": {
-    "docs:dev": "vuepress dev document --temp .temp",
-    "docs:build": "vuepress build document"
+    "dev": "vuepress dev document --temp .temp",
+    "build": "vuepress build document"
   }
 }
