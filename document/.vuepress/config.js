@@ -51,24 +51,55 @@ module.exports = {
         text: "面试",
         items:[
           {
-            text: '面试1',
-            link: "/interview/html/"
+            text: 'HTML 汇总',
+            link: "/interview/html/基础"
           },
           {
-            text: '面试2',
-            link: "/interview/js/"
+            text: 'css 汇总',
+            link: "/interview/css/基础"
           },
           {
-            text: '面试3',
-            link: "/interview/css/"
+            text: 'js 汇总',
+            link: "/interview/js/基础"
           },
           {
-            text: '面试4',
-            link: "/interview/vue/"
+            text: 'vue 汇总',
+            link: "/interview/vue/概念"
+          },
+          {
+            text: '其他',
+            link: "/interview/other/浏览器"
           },
         ]
       },
     ],
-    sidebar: 'auto',
+    sidebar: {
+      '/web/vue/':[
+        '',
+        'v-model',
+        'Vue-router',
+        'Vue-vuex',
+      ],
+      '/interview/vue/':[
+        '概念',
+        'API',
+        '原理',
+      ],
+      '/interview/js/':[
+        '基础',
+        'ES6',
+        '异步',
+      ],
+      '/interview/html/':[
+        '基础',
+        '扩展',
+      ],
+      '/interview/css/':[
+        '基础',
+      ],
+      '/interview/other/':[
+        '浏览器',
+      ]
+    },
   },
 }
