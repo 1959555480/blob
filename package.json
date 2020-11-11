@@ -5,5 +5,6 @@
   "scripts": {
     "dev": "vuepress dev document --temp .temp",
     "build": "vuepress build document"
-  }
+  },
+  "dependencies": {}
 }

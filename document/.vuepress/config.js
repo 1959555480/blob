@@ -1,6 +1,7 @@
 module.exports = {
   title: 'yyx的博客',
   description: '寻几处好景破星光。',
+  dest: '/usr/share/nginx/html/dist',
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
