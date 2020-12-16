@@ -133,6 +133,9 @@ module.exports = {
             ],
             '/other/website/': [
                 '网站',
+            ],
+            '/other/vscode/': [
+                '插件',
             ]
         },
     },
