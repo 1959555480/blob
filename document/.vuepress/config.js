@@ -96,7 +96,7 @@ module.exports = {
                     },
                     {
                         text: 'vscode插件',
-                        link: "/other/website/网站"
+                        link: "/other/vscode/插件"
                     },
                 ]
             }
