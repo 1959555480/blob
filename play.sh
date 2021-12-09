@@ -1,4 +1,4 @@
-# !/usr/bin/env sh
+# !/usr/bin/env sh  需要在服务器上执行此脚本
 
 # 确保脚本抛出遇到的错误
 # set -e
