@@ -5,8 +5,7 @@
   # 将容器的工作目录设置为/app(当前目录，如果/app不存在，WORKDIR会创建/app文件夹)
   WORKDIR /app 
 
-  RUN npm config set registry "https://registry.npm.taobao.org/" \
-      && npm install
+  RUN  npm install
   
   COPY . /app   
   
