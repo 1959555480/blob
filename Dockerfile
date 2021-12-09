@@ -3,7 +3,7 @@
   #指定node镜像对项目进行依赖安装和打包
   FROM node:10.16.0 AS builder
 
-  RUN  npm install
+  RUN npm install
   
   RUN npm run build 
 
