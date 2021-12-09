@@ -5,11 +5,11 @@
 
 # 生成静态文件
 git pull
-git add .
-git commit -m"deploy"
-git push
-echo "npm run build"
+
 npm run build
+echo "npm run build"
+
+docker build -t  yyx-blob:latest .
 echo "deploy finish!!!"
 # 进入生成的文件夹
 #cd document/.vuepress/dist
@@ -24,3 +24,4 @@ echo "deploy finish!!!"
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 # cd -
+
