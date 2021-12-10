@@ -1,4 +1,4 @@
-version: "3" # 表示该 Docker-Compose 文件使用的版本为3
+version: "2" # 表示该 Docker-Compose 文件使用的版本为3
 services:
     nginx:
         image: nginx:latest
