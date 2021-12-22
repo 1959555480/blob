@@ -6,11 +6,14 @@ echo "npm run build"
 
 
 # 打包镜像
-# docker build -t yyx-blob:latest .
-# 推镜像
-docker push reg.htres.cn/yw_18kn1/demonginx
+echo '开始执行打包镜像'
+docker build -t yyx-blob:1.0 .
+echo '停止旧镜像删除'
+docker stop yyx-blob:1.0
+docker rm yyx-blob:1.0
+echo '启动新镜像'
 # 展示镜像
-docker images build -t  yyx-blob:latest .
+docker container run -p 80:80 --name yyx-blob -d yyx-blob:1.0
 # 运行镜像
 
 # 进入生成的文件夹
