@@ -103,6 +103,10 @@ module.exports = {
           text: 'vscode插件',
           link: "/other/vscode/插件"
         },
+        {
+          text: '短片/剪辑',
+          link: "/other/video/短片or剪辑"
+        },
         ]
       }
     ],
@@ -141,6 +145,9 @@ module.exports = {
       ],
       '/other/vscode/': [
         '插件',
+      ],
+      '/other/video/': [
+        '短片or剪辑',
       ]
     },
   },
