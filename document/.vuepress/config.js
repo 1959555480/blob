@@ -107,6 +107,14 @@ module.exports = {
           text: '短片/剪辑',
           link: "/other/video/短片or剪辑"
         },
+        {
+          text: '黑科技',
+          link: "/other/hack/画板妹"
+        },
+        // {
+        //   text: '黑科技',
+        //   link: "/other/hack/背景鼠标线条吸附跟随特效"
+        // },
         ]
       }
     ],
@@ -148,7 +156,11 @@ module.exports = {
       ],
       '/other/video/': [
         '短片or剪辑',
-      ]
+      ],
+      '/other/hack/': [
+        '画板妹',
+        '背景鼠标线条吸附跟随特效',
+      ],
     },
   },
 }
