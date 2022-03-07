@@ -6,5 +6,8 @@
     "dev": "vuepress dev document --temp .temp",
     "build": "vuepress build document"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@vssue/api-github-v3": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8"
+  }
 }
