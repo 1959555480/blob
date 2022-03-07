@@ -1,7 +1,7 @@
 ---
 issueId: 228
 ---
-# ES6
+# ES6 test
 
 ## 扁平化 flat
 
