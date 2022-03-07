@@ -6,7 +6,9 @@ module.exports = {
     // 添加百度统计
     [
       "script",
-      {},
+      {
+        // src:'https://github.com/1959555480/blob-issue'
+      },
       `
             var _hmt = _hmt || [];
             (function() {
@@ -16,29 +18,46 @@ module.exports = {
               s.parentNode.insertBefore(hm, s);
             })();
             `
-    ]
+    ],
   ],
+  // Vssue
+  plugins: {
+    '@vssue/vuepress-plugin-vssue': {
+      // 设置 `platform` 而不是 `api`
+      platform: 'github',
+      // 其他的 Vssue 配置
+      owner: '1959555480',
+      repo: 'blob-issue',
+      clientId: '65af9161d4ca739c587e',
+      clientSecret: '0063a852fb8f2435d1721e4e394436d820ac3256 ',
+    },
+  },
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
       {
         text: "前端web",
-        items: [{
-          text: 'HTML',
-          link: "/web/html/"
-        },
-        {
-          text: 'CSS',
-          link: "/web/css/"
-        },
-        {
-          text: 'JavaScript',
-          link: "/web/javascript/"
-        },
-        {
-          text: 'Vue',
-          link: "/web/vue/"
-        },
+        items: [
+          {
+            text: 'HTML',
+            link: "/web/html/"
+          },
+          {
+            text: 'CSS',
+            link: "/web/css/"
+          },
+          {
+            text: 'JavaScript',
+            link: "/web/javascript/"
+          },
+          {
+            text: 'TypeScript',
+            link: "/web/typescript/"
+          },
+          {
+            text: 'Vue',
+            link: "/web/vue/"
+          },
         ]
       },
       {
@@ -111,10 +130,10 @@ module.exports = {
           text: '黑科技',
           link: "/other/hack/画板妹"
         },
-        // {
-        //   text: '黑科技',
-        //   link: "/other/hack/背景鼠标线条吸附跟随特效"
-        // },
+          // {
+          //   text: '黑科技',
+          //   link: "/other/hack/背景鼠标线条吸附跟随特效"
+          // },
         ]
       }
     ],
