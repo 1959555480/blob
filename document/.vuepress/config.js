@@ -24,12 +24,12 @@ module.exports = {
   plugins: {
     '@vssue/vuepress-plugin-vssue': {
       // 设置 `platform` 而不是 `api`
-      platform: 'github',
+      platform: 'gitee',
       // 其他的 Vssue 配置
-      owner: '1959555480',
+      owner: 'yanyongxing',
       repo: 'blob',
-      clientId: '65af9161d4ca739c587e',
-      clientSecret: '0063a852fb8f2435d1721e4e394436d820ac3256 ',
+      clientId: 'cb427fc2ccfed8c68c1c28b3de00047842258d9876160b88a6b1f7c2d5c84240',
+      clientSecret: '21ff6c540f9b7061baab2e68f2fa4613445488a4d8425ac7ff027adb21b3be7c',
     },
   },
   themeConfig: {
