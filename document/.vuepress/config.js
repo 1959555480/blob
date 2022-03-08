@@ -24,7 +24,7 @@ module.exports = {
   plugins: {
     '@vssue/vuepress-plugin-vssue': {
       // 设置 `platform` 而不是 `api`
-      // platform: 'gitee',
+      platform: 'gitee',
       // 其他的 Vssue 配置
       owner: 'yanyongxing',
       repo: 'blob',
