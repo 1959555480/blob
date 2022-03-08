@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "vuepress": "^1.5.2"
+    "vuepress": "^1.9.7"
   },
   "scripts": {
     "dev": "vuepress dev document --temp .temp",

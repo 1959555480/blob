@@ -1,6 +1,8 @@
 # 生成静态文件
 git pull
 
+npm i
+
 npm run build
 echo "npm run build"
 
