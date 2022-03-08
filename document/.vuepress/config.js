@@ -21,17 +21,26 @@ module.exports = {
     ],
   ],
   // Vssue
-  plugins: {
-    '@vssue/vuepress-plugin-vssue': {
-      // 设置 `platform` 而不是 `api`
+  plugins: [
+    ['@vssue/vuepress-plugin-vssue', {
       platform: 'gitee',
-      // 其他的 Vssue 配置
       owner: 'yanyongxing',
       repo: 'blob',
       clientId: 'cb427fc2ccfed8c68c1c28b3de00047842258d9876160b88a6b1f7c2d5c84240',
       clientSecret: '21ff6c540f9b7061baab2e68f2fa4613445488a4d8425ac7ff027adb21b3be7c',
-    },
-  },
+    }],
+  ],
+  // plugins: {
+  //   '@vssue/vuepress-plugin-vssue': {
+  //     // 设置 `platform` 而不是 `api`
+  //     platform: 'gitee',
+  //     // 其他的 Vssue 配置
+  //     owner: 'yanyongxing',
+  //     repo: 'blob',
+  //     clientId: 'cb427fc2ccfed8c68c1c28b3de00047842258d9876160b88a6b1f7c2d5c84240',
+  //     clientSecret: '21ff6c540f9b7061baab2e68f2fa4613445488a4d8425ac7ff027adb21b3be7c',
+  //   },
+  // },
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
