@@ -27,7 +27,7 @@ module.exports = {
       platform: 'github',
       // 其他的 Vssue 配置
       owner: '1959555480',
-      repo: 'blob-issue',
+      repo: 'blob',
       clientId: '65af9161d4ca739c587e',
       clientSecret: '0063a852fb8f2435d1721e4e394436d820ac3256 ',
     },
