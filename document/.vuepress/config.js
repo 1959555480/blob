@@ -29,7 +29,7 @@ module.exports = {
       clientId: 'cb427fc2ccfed8c68c1c28b3de00047842258d9876160b88a6b1f7c2d5c84240',
       clientSecret: '21ff6c540f9b7061baab2e68f2fa4613445488a4d8425ac7ff027adb21b3be7c',
     }],
-    ['vuepress-plugin-code-copy',true]
+    ['vuepress-plugin-code-copy', true]
   ],
   themeConfig: {
     nav: [
@@ -129,10 +129,10 @@ module.exports = {
           text: '黑科技',
           link: "/other/hack/画板妹"
         },
-          // {
-          //   text: '黑科技',
-          //   link: "/other/hack/背景鼠标线条吸附跟随特效"
-          // },
+        {
+          text: '工具函数',
+          link: "/other/fun/工具函数"
+        },
         ]
       }
     ],
@@ -178,6 +178,9 @@ module.exports = {
       '/other/hack/': [
         '画板妹',
         '背景鼠标线条吸附跟随特效',
+      ],
+      '/other/fun/': [
+        '工具函数',
       ],
     },
   },
