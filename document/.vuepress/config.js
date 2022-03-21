@@ -19,6 +19,7 @@ module.exports = {
             })();
             `
     ],
+    ['link', { rel: 'icon', href: '/icon.jpg' }]
   ],
   // Vssue
   plugins: [
