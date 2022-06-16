@@ -30,7 +30,13 @@ module.exports = {
       clientId: 'cb427fc2ccfed8c68c1c28b3de00047842258d9876160b88a6b1f7c2d5c84240',
       clientSecret: '21ff6c540f9b7061baab2e68f2fa4613445488a4d8425ac7ff027adb21b3be7c',
     }],
-    ['vuepress-plugin-code-copy', true]
+    ['vuepress-plugin-code-copy', true],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'GTM-WHGX254' //替换成自己实际申请的ID
+      }
+    ]
   ],
   themeConfig: {
     nav: [
@@ -106,6 +112,10 @@ module.exports = {
           text: '其他',
           link: "/interview/other/浏览器"
         },
+        {
+          text: '经验',
+          link: "/interview/actual/经验"
+        },
         ]
       },
       {
@@ -163,6 +173,9 @@ module.exports = {
       ],
       '/interview/other/': [
         '浏览器',
+      ],
+      '/interview/actual/': [
+        '经验',
       ],
       '/other/reg/base/': [
         '基础',
